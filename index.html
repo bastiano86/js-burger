@@ -9,39 +9,39 @@
 </head>
 <body>
     <h2>Create your burger</h2>
-    <h3 id="name-burger">Your burger</h3>
+    <input id="nome-panino" type="text"></input>
     <h4>Ingredients</h4>
     <ul>
         <li> 
-            <input type="checkbox" id="Cheese" name="Cheese">
+            <input class="ing-check" type="checkbox" id="Cheese" name="Cheese">
             <label for="Cheese">Cheese</label> 
         </li>
         <li> 
-            <input type="checkbox" id="Egg" name="Egg">
+            <input class="ing-check" type="checkbox" id="Egg" name="Egg">
             <label for="Egg">Egg</label> 
         </li>
         <li> 
-            <input type="checkbox" id="Mustard" name="Mustard">
+            <input class="ing-check" type="checkbox" id="Mustard" name="Mustard">
             <label for="Mustard">Mustard</label> 
         </li>
     </ul>
     <ul>
         <li> 
-            <input type="checkbox" id="Tomato" name="Tomato">
+            <input class="ing-check" type="checkbox" id="Tomato" name="Tomato">
             <label for="TOmato">Tomato</label> 
         </li>
         <li> 
-            <input type="checkbox" id="Lettuce" name="Lettuce">
+            <input class="ing-check" type="checkbox"  id="Lettuce" name="Lettuce">
             <label for="Lettuce">Lettuce</label> 
         </li>
         <li> 
-            <input type="checkbox" id="Ketchup" name="Ketchup">
+            <input class="ing-check" type="checkbox" id="Ketchup" name="Ketchup">
             <label for="Ketchup">Ketchup</label> 
         </li>
     </ul>
     <h5>Discount Coupon<span class="discount-code"></span></h5>
-    <button class="calculate"></button>
-    <h4>Your price <span class="final-price"></span></h4>
+    <button id="bottone" class="calculate">Calcola il prezzo</button>
+    <h4>Your price <span id="final-price"></span></h4>
     <script src="script.js"></script>
 </body>
 </html>
